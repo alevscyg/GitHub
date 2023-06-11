@@ -4,8 +4,6 @@ import { AuthGuard } from '@nestjs/passport';
 import { ApiCreatedResponse, ApiOperation, ApiProperty, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Request, Response } from 'express';
 import { IsEmail, IsString } from 'class-validator';
-
-import { FilteDto } from 'apps/films/src/dto/filtre.dto';
 import { AuthService } from './auth.service';
 import { CommentsService } from './comments.service';
 import { CreateUserDto } from './dto/createuser.dto';
